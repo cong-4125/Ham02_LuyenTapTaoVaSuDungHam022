@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("nhap so a"));
+    let b = parseInt(prompt("nhap so b"));
+    function switchNumber(a,b) {
+        let tem = 0;
+        tem = a;
+        a = b;
+        b = tem;
+     return (a + "," + b);
+    }
+    document.write(switchNumber(a,b));
+</script>
+</body>
+</html>

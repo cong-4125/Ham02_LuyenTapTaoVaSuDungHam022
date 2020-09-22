@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkCrt(arr,character) {
+        let count = 0;
+        for (let i = 0;i < arr.length;i++) {
+            if (arr[i] == character) {
+                count += 1;
+            }
+    }
+        if (count == 0) {
+            return -1;
+
+        }else {
+            return "so lan xuat hien :" + count;
+        }
+    }
+    let arr1 = [1,3,5,7,3,9,3];
+    let character1 = 3;
+    document.write(checkCrt(arr1,character1));
+</script>
+</body>
+</html>

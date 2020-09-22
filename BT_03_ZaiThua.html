@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = +prompt("enter a number");
+    let count = 1;
+    function factorial(num) {
+        for (let i = 2;i <= num;i++) {
+            count *= i;
+        }return count;
+    }
+    document.write(factorial(num));
+</script>
+</body>
+</html>
